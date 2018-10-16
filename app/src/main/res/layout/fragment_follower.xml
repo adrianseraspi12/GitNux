@@ -4,7 +4,7 @@
     android:id="@+id/follower_rootview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".listpeople.FollowerFragment">
+    tools:context=".ui.listpeople.FollowerFragment">
 
     <ProgressBar
         android:id="@+id/follower_progressbar"

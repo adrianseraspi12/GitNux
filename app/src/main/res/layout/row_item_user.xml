@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/ListItem.Large">
+    style="@style/ListItem">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/item_user_image"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="@dimen/row_item_image_size"
+        android:layout_height="@dimen/row_item_image_size"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="@dimen/large_dp"

@@ -22,7 +22,7 @@
             android:id="@+id/profile_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".overview.ProfileFragment">
+            tools:context=".ui.overview.ProfileFragment">
 
             <LinearLayout
                 android:id="@+id/profile_info_layout"

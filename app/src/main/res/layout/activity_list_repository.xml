@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".listrepo.ListRepositoryActivity">
+    tools:context=".ui.listrepo.ListRepositoryActivity">
 
     <include layout="@layout/main_toolbar" />
 

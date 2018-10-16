@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "720400572227",
+    "firebase_url": "https://gitnux.firebaseio.com",
+    "project_id": "gitnux",
+    "storage_bucket": "gitnux.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720400572227:android:e49511fb57883411",
+        "android_client_info": {
+          "package_name": "com.adrianseraspi.gitnux"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720400572227-de68rssojhq93of6qpvb7jr5s4o4mghp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaf6Ttjp6pSCiyYxhvg52EpdmsAPMuLXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

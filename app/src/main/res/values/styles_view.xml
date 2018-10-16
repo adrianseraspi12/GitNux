@@ -5,15 +5,8 @@
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:layout_height">wrap_content</item>
 
-    </style>
-
-    <style name="ListItem.Large">
-        <item name="android:layout_height">@dimen/row_item_height_large</item>
-    </style>
-
-    <style name="ListItem.Small">
-        <item name="android:layout_height">@dimen/row_item_height_small</item>
     </style>
 
     <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">

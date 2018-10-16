@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorPrimary"
+    android:background="@android:color/white"
     android:fitsSystemWindows="true"
-    tools:context=".login.LoginActivity">
+    tools:context=".ui.login.LoginActivity">
 
     <ImageView
         android:id="@+id/login_logo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="@dimen/login_logo_margin_vertical"
+        android:layout_marginTop="@dimen/login_logo_margin_horizontal"
+        android:layout_marginEnd="@dimen/login_logo_margin_vertical"
         android:adjustViewBounds="true"
         android:contentDescription="@string/gitnux_logo"
         android:scaleType="centerCrop"
@@ -41,7 +41,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:layout_margin="@dimen/medium_dp"
-        android:onClick="loginUser"
         android:paddingTop="@dimen/large_dp"
         android:paddingBottom="@dimen/large_dp"
         android:text="@string/login"

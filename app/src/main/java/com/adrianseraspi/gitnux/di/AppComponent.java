@@ -1,8 +1,7 @@
 package com.adrianseraspi.gitnux.di;
 
 import com.adrianseraspi.gitnux.adapter.FollowingAdapter;
-import com.adrianseraspi.gitnux.base.BasePresenter;
-import com.adrianseraspi.gitnux.login.LoginPresenter;
+import com.adrianseraspi.gitnux.ui.base.BasePresenter;
 
 import javax.inject.Singleton;
 

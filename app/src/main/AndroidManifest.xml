@@ -5,18 +5,16 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <!--TODO: fix layout, add firebase crashlytics, X-lint-->
-
     <application
         android:name=".GitNuxApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".login.LoginActivity">
+            android:name=".ui.login.LoginActivity">
 
             <intent-filter>
 
@@ -39,32 +37,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".home.HomeActivity"
+            android:name=".ui.home.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NavDrawer" />
         <activity
-            android:name=".overview.OverviewActivity"
+            android:name=".ui.overview.OverviewActivity"
             android:label="@string/overview"
-            android:parentActivityName=".home.HomeActivity" />
+            android:parentActivityName=".ui.home.HomeActivity" />
         <activity
-            android:name=".listrepo.ListRepositoryActivity"
+            android:name=".ui.listrepo.ListRepositoryActivity"
             android:label="@string/repositories"
-            android:parentActivityName=".home.HomeActivity" />
+            android:parentActivityName=".ui.home.HomeActivity" />
         <activity
-            android:name=".liststarred.ListStarredActivity"
+            android:name=".ui.liststarred.ListStarredActivity"
             android:label="@string/stars"
-            android:parentActivityName=".home.HomeActivity" />
+            android:parentActivityName=".ui.home.HomeActivity" />
         <activity
-            android:name=".listpeople.ListPeopleActivity"
+            android:name=".ui.listpeople.ListPeopleActivity"
             android:label="@string/people"
-            android:parentActivityName=".home.HomeActivity" />
-        <activity android:name=".repo.RepositoryActivity">
+            android:parentActivityName=".ui.home.HomeActivity" />
+        <activity android:name=".ui.repo.RepositoryActivity">
         </activity>
 
-        <activity android:name=".codeviewer.CodeViewerActivity" />
-        <activity android:name=".about.GitNuxPreferenceActivity"
+        <activity android:name=".ui.codeviewer.CodeViewerActivity" />
+        <activity android:name=".ui.about.GitNuxPreferenceActivity"
             android:theme="@style/SettingsTheme"
-            android:parentActivityName=".home.HomeActivity"/>
+            android:parentActivityName=".ui.home.HomeActivity"/>
 
     </application>
 

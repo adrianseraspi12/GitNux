@@ -4,7 +4,7 @@
     android:id="@+id/repository_rootview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".overview.RepositoryFragment">
+    tools:context=".ui.overview.RepositoryFragment">
 
     <ProgressBar
         android:id="@+id/repository_progressbar"

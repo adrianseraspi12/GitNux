@@ -3,8 +3,6 @@ package com.adrianseraspi.gitnux.adapter;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
-import android.view.animation.ScaleAnimation;
 
 import java.util.List;
 
@@ -13,13 +11,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class BaseAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
 
-    private List<T> list;
+    private final List<T> list;
 
     private int lastPosition = -1;
 
     private static final int FADE_ANIM_DURATION = 750;
 
-    public BaseAdapter(List<T> list) {
+    protected BaseAdapter(List<T> list) {
         this.list = list;
     }
 

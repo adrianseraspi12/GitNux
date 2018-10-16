@@ -13,7 +13,7 @@ import com.adrianseraspi.gitnux.R;
 import com.adrianseraspi.gitnux.api.model.Following;
 import com.adrianseraspi.gitnux.api.model.User;
 import com.adrianseraspi.gitnux.api.service.GitHubClient;
-import com.adrianseraspi.gitnux.overview.OverviewActivity;
+import com.adrianseraspi.gitnux.ui.overview.OverviewActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

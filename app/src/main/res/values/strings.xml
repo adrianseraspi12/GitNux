@@ -8,19 +8,15 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
     <string name="gitnux_logo">gitnux logo</string>
     <string name="home">Home</string>
     <string name="following">Following</string>
     <string name="followers">Followers</string>
     <string name="repository">Repository</string>
-    <string name="contribution">Contribution</string>
     <string name="profile">Profile</string>
     <string name="login_subtitle">Open source app for github</string>
     <string name="login">OAuth Login</string>
-    <string name="forked_from">Forked from</string>
     <string name="forked">Forked</string>
 
     <string name="file_icon">File icon</string>
@@ -31,7 +27,6 @@
     <string name="logout_user">Logout user</string>
     <string name="logout_user_message">Are you sure you want to logout?</string>
     <string name="cancel">Cancel</string>
-    <string name="list_is_empty">List is empty</string>
     <string name="loading">Loading</string>
     <string name="about">About</string>
     <string name="gitnux_version">GitNux version</string>
@@ -42,4 +37,7 @@
     <string name="privacy_policy">Privacy Policy</string>
     <string name="privacy_policy_summary">See privacy policy</string>
     <string name="developer">Developed by Adrian Seraspi</string>
+    <string name="clientSecret">67fe79e63f1d758d1122a8295d1c1b33d7e1eea8</string>
+    <string name="clientId">e1368abff00f39d58fef</string>
+    <string name="redirectUri">gitnux://callback</string>
 </resources>

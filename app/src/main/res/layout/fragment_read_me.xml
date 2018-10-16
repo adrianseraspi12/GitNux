@@ -4,7 +4,7 @@
     android:id="@+id/read_me_rootview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".repo.ReadMeFragment">
+    tools:context=".ui.repo.ReadMeFragment">
 
     <ProgressBar
         android:id="@+id/read_me_progressbar"

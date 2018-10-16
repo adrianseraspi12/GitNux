@@ -22,7 +22,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 @Module
 public class GithubModule {
 
-    private Activity activity;
+    private final Activity activity;
     private NetworkConnectionListener mListener;
 
     public GithubModule(Activity activity, NetworkConnectionListener listener) {

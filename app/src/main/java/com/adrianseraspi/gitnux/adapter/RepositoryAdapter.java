@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.adrianseraspi.gitnux.R;
 import com.adrianseraspi.gitnux.api.model.Repository;
-import com.adrianseraspi.gitnux.repo.RepositoryActivity;
+import com.adrianseraspi.gitnux.ui.repo.RepositoryActivity;
 
 import net.danlew.android.joda.DateUtils;
 
@@ -21,7 +21,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import timber.log.Timber;
 
 import static net.danlew.android.joda.DateUtils.FORMAT_ABBREV_RELATIVE;
 
