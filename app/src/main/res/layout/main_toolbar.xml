@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/main_horizontal_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:indeterminate="true"
+        app:mpb_progressStyle="horizontal"
+        app:mpb_useIntrinsicPadding="false"
+        android:layout_below="@id/main_appbar"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/main_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            style="@style/Toolbar" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</RelativeLayout>

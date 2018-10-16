@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/profile_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/Widget.AppCompat.ProgressBar"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/profile_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".overview.ProfileFragment">
+
+            <LinearLayout
+                android:id="@+id/profile_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/large_dp"
+                android:layout_marginTop="@dimen/large_dp"
+                android:layout_marginEnd="@dimen/large_dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_info_image"
+                    android:layout_width="@dimen/default_image_size"
+                    android:layout_height="@dimen/default_image_size"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:src="@tools:sample/avatars" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/large_dp"
+                    android:layout_marginEnd="@dimen/large_dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/profile_info_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                        tools:text="Adrian Seraspi" />
+
+                    <TextView
+                        android:id="@+id/profile_info_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/small_dp"
+                        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                        tools:text="Philippines" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/profile_bio"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/large_dp"
+                android:layout_marginTop="@dimen/large_dp"
+                android:layout_marginEnd="@dimen/large_dp"
+                android:layout_marginBottom="@dimen/large_dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profile_info_layout"
+                tools:text="This is a long description so we can see if this will scroll down " />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
+

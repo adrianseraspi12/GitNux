@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/code_viewer_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".codeviewer.CodeViewerActivity">
+
+    <include layout="@layout/main_toolbar"/>
+
+    <io.github.kbiakov.codeview.CodeView
+        android:id="@+id/code_viewer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/medium_dp"
+        android:layout_marginEnd="@dimen/medium_dp"
+        android:layout_marginStart="@dimen/medium_dp"/>
+
+</LinearLayout>

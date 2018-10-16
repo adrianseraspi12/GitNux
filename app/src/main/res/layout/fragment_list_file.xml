@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/list_file_rootview"
+    tools:context=".repo.ListContentFragment">
+
+    <LinearLayout
+        android:id="@+id/list_file_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_item_height_small"
+        android:layout_marginStart="@dimen/medium_dp"
+        android:layout_marginEnd="@dimen/medium_dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/list_file_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/go_back_to_file"
+            android:padding="@dimen/medium_dp"
+            android:src="@drawable/ic_back" />
+
+        <HorizontalScrollView
+            android:id="@+id/list_file_horizontal_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/medium_dp"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <TextView
+                android:id="@+id/list_file_directory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                tools:text="Home | app |" />
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list_file_header"/>
+
+</RelativeLayout>

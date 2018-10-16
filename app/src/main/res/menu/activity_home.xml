@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_home"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_home"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group_main"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_overview"
+            android:title="@string/overview"
+            android:icon="@drawable/ic_assessment" />
+
+        <item
+            android:id="@+id/menu_repositories"
+            android:title="@string/repositories"
+            android:icon="@drawable/ic_library_books" />
+
+        <item
+            android:id="@+id/menu_stars"
+            android:title="@string/stars"
+            android:icon="@drawable/ic_star" />
+
+        <item
+            android:id="@+id/menu_people"
+            android:title="@string/people"
+            android:icon="@drawable/ic_people" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_other"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_info"/>
+
+        <item
+            android:id="@+id/menu_logout"
+            android:title="@string/logout"
+            android:icon="@drawable/ic_exit" />
+
+    </group>
+
+</menu>

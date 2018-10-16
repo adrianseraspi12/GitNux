@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">GitNux</string>
+    <string name="overview">Overview</string>
+    <string name="repositories">Repositories</string>
+    <string name="stars">Stars</string>
+    <string name="people">People</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="gitnux_logo">gitnux logo</string>
+    <string name="home">Home</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="repository">Repository</string>
+    <string name="contribution">Contribution</string>
+    <string name="profile">Profile</string>
+    <string name="login_subtitle">Open source app for github</string>
+    <string name="login">OAuth Login</string>
+    <string name="forked_from">Forked from</string>
+    <string name="forked">Forked</string>
+
+    <string name="file_icon">File icon</string>
+    <string name="read_me">ReadMe</string>
+    <string name="files">Files</string>
+    <string name="go_back_to_file">Go back to file</string>
+    <string name="logout">Logout</string>
+    <string name="logout_user">Logout user</string>
+    <string name="logout_user_message">Are you sure you want to logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="list_is_empty">List is empty</string>
+    <string name="loading">Loading</string>
+    <string name="about">About</string>
+    <string name="gitnux_version">GitNux version</string>
+    <string name="more_from_the_dev">More from the Developer</string>
+    <string name="more_from_dev_summary">Support my other apps</string>
+    <string name="contribute">Contribute on this app</string>
+    <string name="contribute_summary">Help me improve this app</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_summary">See privacy policy</string>
+    <string name="developer">Developed by Adrian Seraspi</string>
+</resources>

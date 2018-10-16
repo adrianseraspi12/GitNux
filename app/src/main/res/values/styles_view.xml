@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ListItem">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="ListItem.Large">
+        <item name="android:layout_height">@dimen/row_item_height_large</item>
+    </style>
+
+    <style name="ListItem.Small">
+        <item name="android:layout_height">@dimen/row_item_height_small</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="TabsLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+</resources>
