@@ -44,7 +44,12 @@ You can read the codes.
 - [**CodeView**](https://github.com/kbiakov/CodeView-android) for displaying code with syntax highlighting
 - [**MaterialProgressBar**](https://github.com/DreaminginCodeZH/MaterialProgressBar) for material design look to progressbar
 - Minimum SDK is **21**
-- **MVP** architecture is used
+- **MVP** pattern is used
 
 ## Contribute
 Want to add features or fix something? Feel free to contribute in this app
+
+## References
+1. [**Advanced Retrofit2: Network Error Handling**](https://medium.com/@tsaha.cse/advanced-retrofit2-part-1-network-error-handling-response-caching-77483cf68620)
+2. [**Retrofit tutorials**](https://futurestud.io/)
+3. [**Dagger2 (BracketCove)**](https://github.com/BracketCove/) support his [**Youtube**](https://www.youtube.com/user/gosuddr93) channel
