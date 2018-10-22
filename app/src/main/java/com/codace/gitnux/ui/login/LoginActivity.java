@@ -16,6 +16,7 @@ import com.codace.gitnux.ui.home.HomeActivity;
 import com.codace.gitnux.util.LoadingDialog;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.DialogFragment;
 import butterknife.BindString;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -66,7 +67,9 @@ public class LoginActivity extends AppCompatActivity implements LoginView, Netwo
 
     @OnClick(R.id.login_button)
     public void loginUser() {
-        presenter.authenticateUser();
+        DialogFragment dialog = LoginDialog.newInstance();
+        ((LoginDialog) dialog).setWebViewListener(url -> presenter.saveAccessToken(Uri.parse(url)));
+        dialog.show(getSupportFragmentManager(), "dialog");
     }
 
     @Override

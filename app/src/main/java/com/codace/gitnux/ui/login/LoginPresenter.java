@@ -24,10 +24,6 @@ class LoginPresenter extends BasePresenter {
         return accessToken != null;
     }
 
-    void authenticateUser() {
-        loginView.startBrowser();
-    }
-
     void saveAccessToken(Uri uri) {
         loginView.showProgressBar();
 

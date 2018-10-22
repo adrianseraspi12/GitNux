@@ -21,4 +21,10 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
+    <style name="FullscreenDialogTheme" parent="Theme.MaterialComponents.Light.DialogWhenLarge">
+        <item name="android:statusBarColor">@color/colorAccentDark</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
+    </style>
+
 </resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dialog_webview_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:cardElevation="@dimen/small_dp"
+        app:cardCornerRadius="0dp"
+        android:layout_alignParentTop="true"
+        app:cardBackgroundColor="@color/colorAccent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/dialog_webview_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/medium_dp"
+                android:src="@drawable/ic_close"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/close"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/medium_dp"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+            <TextView
+                android:id="@+id/dialog_webview_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/dialog_webview_close"
+                android:layout_marginEnd="@dimen/large_dp"
+                android:textColor="@android:color/white"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/dialog_webview_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <WebView
+        android:id="@+id/dialog_webview_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dialog_webview_toolbar" />
+
+</RelativeLayout>

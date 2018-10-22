@@ -4,7 +4,7 @@ apply plugin: 'io.fabric'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.adrianseraspi.gitnux"
+        applicationId "com.codace.gitnux"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1

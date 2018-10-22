@@ -40,4 +40,5 @@
     <string name="clientSecret">67fe79e63f1d758d1122a8295d1c1b33d7e1eea8</string>
     <string name="clientId">e1368abff00f39d58fef</string>
     <string name="redirectUri">gitnux://callback</string>
+    <string name="close">Close</string>
 </resources>
