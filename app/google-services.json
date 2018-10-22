@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:720400572227:android:e49511fb57883411",
+        "mobilesdk_app_id": "1:720400572227:android:1f23a4322aab2ea9",
         "android_client_info": {
-          "package_name": "com.adrianseraspi.gitnux"
+          "package_name": "com.codace.gitnux"
         }
       },
       "oauth_client": [

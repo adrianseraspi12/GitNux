@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.adrianseraspi.gitnux">
+    package="com.codace.gitnux">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".GitNuxApplication"
+        android:name="com.codace.gitnux.GitNuxApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.login.LoginActivity">
+            android:name="com.codace.gitnux.ui.login.LoginActivity">
 
             <intent-filter>
 
@@ -37,32 +37,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.home.HomeActivity"
+            android:name="com.codace.gitnux.ui.home.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NavDrawer" />
         <activity
-            android:name=".ui.overview.OverviewActivity"
+            android:name="com.codace.gitnux.ui.overview.OverviewActivity"
             android:label="@string/overview"
-            android:parentActivityName=".ui.home.HomeActivity" />
+            android:parentActivityName="com.codace.gitnux.ui.home.HomeActivity" />
         <activity
-            android:name=".ui.listrepo.ListRepositoryActivity"
+            android:name="com.codace.gitnux.ui.listrepo.ListRepositoryActivity"
             android:label="@string/repositories"
-            android:parentActivityName=".ui.home.HomeActivity" />
+            android:parentActivityName="com.codace.gitnux.ui.home.HomeActivity" />
         <activity
-            android:name=".ui.liststarred.ListStarredActivity"
+            android:name="com.codace.gitnux.ui.liststarred.ListStarredActivity"
             android:label="@string/stars"
-            android:parentActivityName=".ui.home.HomeActivity" />
+            android:parentActivityName="com.codace.gitnux.ui.home.HomeActivity" />
         <activity
-            android:name=".ui.listpeople.ListPeopleActivity"
+            android:name="com.codace.gitnux.ui.listpeople.ListPeopleActivity"
             android:label="@string/people"
-            android:parentActivityName=".ui.home.HomeActivity" />
-        <activity android:name=".ui.repo.RepositoryActivity">
+            android:parentActivityName="com.codace.gitnux.ui.home.HomeActivity" />
+        <activity android:name="com.codace.gitnux.ui.repo.RepositoryActivity">
         </activity>
 
-        <activity android:name=".ui.codeviewer.CodeViewerActivity" />
-        <activity android:name=".ui.about.GitNuxPreferenceActivity"
+        <activity android:name="com.codace.gitnux.ui.codeviewer.CodeViewerActivity" />
+        <activity android:name="com.codace.gitnux.ui.about.GitNuxPreferenceActivity"
             android:theme="@style/SettingsTheme"
-            android:parentActivityName=".ui.home.HomeActivity"/>
+            android:parentActivityName="com.codace.gitnux.ui.home.HomeActivity"/>
 
     </application>
 
