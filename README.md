@@ -46,6 +46,10 @@ You can read the codes.
 - Minimum SDK is **21**
 - **MVP** pattern is used
 
+## Future Updates
+1. Offline storage
+2. Write/Edit code
+
 ## Contribute
 Want to add features or fix something? Feel free to contribute in this app
 
